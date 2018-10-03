@@ -54,10 +54,6 @@ class MoveTama{
                 }
             }
         }
-       //print(touchedY,"MoveTamaTouchedY")
-       //print(touchedX,"MoveTamaTouchedX")
-       //print(moveY, "MoveTamaMoveY")
-       //print(moveX ,"MoveTamaMoveX")
     }
     //玉の移動。持っている玉と接触する玉の場所を交換する
     func move(piaces:[[Tama]]) {
