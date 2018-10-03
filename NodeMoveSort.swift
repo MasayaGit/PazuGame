@@ -113,10 +113,3 @@ class NodeMoveSort{
    
     
 }
-
-
-
-//玉の情報出力
-/*let tamaInfo: TamaInformation = TamaInformation(piaces:board.piaces)
- tamaInfo.printInfo()
- */
