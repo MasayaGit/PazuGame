@@ -27,15 +27,7 @@ class MakeNewTama {
     */
 
     
-    /*
-     sprite = SKSpriteNodeWithLabel(texture:setView.setView(num),color:setColor.setColor(num),size:size)
-     
-     sprite.position = CGPoint(x: point.x,y: point.y)
-     */
-    
-    /*
-     Int(random.arc4random(lower: 1, upper: 7))
-     */
+   
     
     //下の宣言はpiaces[xx][xx]がの色がclearかの判定に使う
     let ifClearSprite: SKSpriteNodeWithLabel =
