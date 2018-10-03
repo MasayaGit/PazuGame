@@ -39,9 +39,6 @@ class MoveTama{
         }
         //移動後、NodeMoveSortでspriteのソートする。先に最初にtouchされたやつの情報を渡す
         nodeMoveSort.setTouchedXY(touchedX:touchedX,touchedY:touchedY)
-        //print(touchedY,"MoveTamaTouchedY")
-        //print(touchedX,"MoveTamaTouchedX")
-
     }
     //セッター　そのNodeと同じやつを２次元配列の中から見つける
     func setmoveTamaNode (node : SKNode , piaces:[[Tama]]){
