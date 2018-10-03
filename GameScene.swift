@@ -160,8 +160,6 @@ class GameScene: SKScene {
         for i in 0..<Board.size{
             for j in 0..<Board.size{
                 //nodeにnodeを追加できる。だからnodeをlayerとしてみなしnodeのboard.piaces[i][j].spriteを追加する。動くやつと動かないやつを作る
-                //print("deleteAfterIf()OK")
-                //piaceLayer.addChild()
                 self.piaceLayer.addChild(self.board.piaces[i][j].sprite)
                 
             }
