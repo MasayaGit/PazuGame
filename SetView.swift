@@ -14,34 +14,6 @@ class SetView{
     /// ラベルのテキストを自身の数字に更新
     func setView(_ num: Int) -> SKTexture{
         
-        /*self.num = num
-         //キャストStringh型へ
-         let StringNumber:String = String(self.num)
-         sprite.texture = SKTexture(imageNamed:StringNumber)
-         */
-        
-        //参考
-        // let texture: SKTexture = SKTexture(imageNamed: "frame.png")
-        
-        
-        ///SpriteKitで使うノード
-        //上でこういうコードある
-        //private(set) var sprite: SKSpriteNodeWithLabel
-        
-        
-        /*
-         玉の種類はnumで管理する
-         numによって出力する写真を決める
-         1:blue
-         2:green
-         3:red
-         4:purple
-         5:yellow
-         6:orange
-         7:消去
-         else:エラー
-         */
-        
         if num == 1{
             return SKTexture(imageNamed:"blue.png")
         }
