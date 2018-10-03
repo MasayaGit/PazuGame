@@ -33,49 +33,7 @@ class DeleteTama{
         
     }
     
-    /*
-      for i in 0..<Board.size{
-        if(piaces[i][0].sprite.color == piaces[i][1].sprite.color && piaces[i][1].sprite.color == piaces[i][2].sprite.color){
-            //画像と色を変更する
-            piaces[i][0].sprite.color = UIColor.clear
-            piaces[i][0].sprite.texture = SKTexture(imageNamed:"syokyo.png")
-            piaces[i][1].sprite.color = UIColor.clear
-            piaces[i][1].sprite.texture = SKTexture(imageNamed:"syokyo.png")
-            piaces[i][2].sprite.color = UIColor.clear
-            piaces[i][2].sprite.texture = SKTexture(imageNamed:"syokyo.png")
-            
-            deleteCount += 1
-            GameScene.syokyoTamaCount += 1
-            
-        }
-        
-        if(piaces[i][3].sprite.color == piaces[i][4].sprite.color && piaces[i][4].sprite.color == piaces[i][5].sprite.color){
-            //画像と色を変更する
-            print("$$$$$$$$$$$$$ok")
-            piaces[i][3].sprite.color = UIColor.clear
-            piaces[i][3].sprite.texture = SKTexture(imageNamed:"syokyo.png")
-            piaces[i][4].sprite.color = UIColor.clear
-            piaces[i][4].sprite.texture = SKTexture(imageNamed:"syokyo.png")
-            piaces[i][5].sprite.color = UIColor.clear
-            piaces[i][5].sprite.texture = SKTexture(imageNamed:"syokyo.png")
-            
-            deleteCount += 1
-            GameScene.syokyoTamaCount += 1
-
-            
-        }
-      }
-         
-    if(deleteCount > 0){
-        GameScene.syokyoFlag = true
-    }
-
-    */
     
-    
-    /*
-     玉のアクセス ３個続いていたらそこは消去
-     */
     
     /*
      玉の種類はnumで管理する
@@ -115,9 +73,7 @@ class DeleteTama{
         }
         
         
-        print("methodi" , methodi)
-        print("methodj" , methodj)
-        
+      
         
         //jが多すぎるとき０に戻すまたiのとこは一個上にする。
         if(j == Board.size-1){
